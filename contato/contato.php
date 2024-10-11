@@ -29,13 +29,13 @@
             <form action="" method="POST">
 
             <label for="nomeContato">Nome:</label>
-            <input type="text" name="nomeContato" id="nomeContato">
+            <input placeholder="Digite seu nome completo " type="text" name="nomeContato" id="nomeContato">
             
             <label for="emailContato">Email de contato: </label>
-            <input type="email" name="emailContato" id="emailContato">
+            <input placeholder="Digite seu email" type="email" name="emailContato" id="emailContato">
 
             <label for="textareaContato">Mensagem para 141sports:</label>
-            <input type="text" name="textareaContato" id="textareaContato">
+            <input placeholder="Digite a sua mensagem aqui" type="text" name="textareaContato" id="textareaContato">
 
             <button type="submit">Enviar Mensagem</button>
 
