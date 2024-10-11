@@ -71,3 +71,13 @@
     opacity: 0.4;
     padding: 10px;
 }
+
+#perguntas {
+    margin-top: 3%;
+    margin-left: 100px;
+}
+
+#perguntas #caixa-perguntas #q1, #q2, #q3, #q4, #q5, #q6, #q7{
+    display: flex;
+}
+
