@@ -1,3 +1,7 @@
+<?php
+  include "templates/header.php";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -89,3 +93,9 @@
     </section>
 </body>
 </html>
+
+<?php
+
+include "templates/footer.php"
+
+?>
