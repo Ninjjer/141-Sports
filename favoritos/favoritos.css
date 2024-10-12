@@ -47,38 +47,175 @@ body {
     padding-top: 0;
 
 }
+/*--------------carrinho---------------*/
 
-.preco{
+.preco {
 
     position: absolute;
     font-family: 'Red Rose';
     font-style: normal;
-
+    top: 335px;
     font-weight: 800;
     font-size: 25px;
     text-transform: capitalize;
     color: #29AC0E;
     padding: 10px;
-    left: 100px;
+    left: 160px;
 }
 
-.preco2{
+.preco2 {
 
     position: absolute;
     font-family: 'Red Rose';
     font-style: normal;
-
+    left: 600px;
+    top: 335px;
     font-weight: 800;
     font-size: 25px;
     text-transform: capitalize;
     color: #29AC0E;
     padding: 10px;
-    left: 100px;
+   
 }
 
+.preco3 {
+
+    position: absolute;
+    width: 134px;
+    height: 21px;
+    left: 1040px;
+    top: 335px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 99.98%;
+    letter-spacing: -0.05em;
+    text-transform: capitalize;
+    color: #29AC0E;
+    padding: 10px;
+}
+.preco4 {
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 160px;
+top: 860px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+
+color: #29AC0E;
+
+
+}
+
+.preco5 {
+
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 600px;
+top: 860px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+color: #29AC0E;
 
 
 
+}
+
+.preco6 {
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 1040px;
+top: 860px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+
+color: #29AC0E;
+
+
+}
+.preco7 {
+
+  /* R$ 159,90 */
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 160px;
+top: 1390px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+color: #29AC0E;
+
+
+
+}
+
+.preco8 {
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 600px;
+top: 1390px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+color: #29AC0E;
+
+
+
+   
+}
+
+.preco9 {
+
+position: absolute;
+width: 134px;
+height: 21px;
+left: 1040px;
+top: 1390px;
+font-family: 'Red Rose';
+font-style: normal;
+font-weight: 800;
+font-size: 25px;
+line-height: 99.98%;
+letter-spacing: -0.05em;
+text-transform: capitalize;
+
+color: #29AC0E;
+}
+/*--------------COMPRAR---------------*/
 .comprar{
    
 
@@ -92,8 +229,14 @@ background: #3CB922;
 border-radius: 10px;
 color: white;
 left: calc(50% - 173px/2 - 480.5px);
-
+transition: 0.3s ease ;
 }
+
+button:hover{
+
+    background-color: #33fb5b;
+}
+
 
 .comprar2{
    
@@ -110,20 +253,107 @@ left: calc(50% - 173px/2 - 480.5px);
     
     }
 
-    .comprar3{
-   
-        position: absolute;
-        width: 173px;
-        height: 48px;
-        left: calc(50% - 173px/2 + 412.5px);
-        top: 400px;
-        background: #3CB922;
-        border-radius: 10px;
-        color: white;
-        font-size: 15pt;
-        
-        }
+.comprar3{
 
+position: absolute;
+width: 173px;
+height: 48px;
+left: calc(50% - 173px/2 + 412.5px);
+top: 400px;
+background: #3CB922;
+border-radius: 10px;
+color: white;
+font-size: 15pt;
+
+}
+.comprar4{
+   
+
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: 100px;
+    top: 900px;
+    font-size: 15pt;
+    background: #3CB922;
+    border-radius: 10px;
+    color: white;
+    left: calc(50% - 173px/2 - 480.5px);
+            
+}
+.comprar5{
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: 100px;
+    top: 900px;
+    font-size: 15pt;
+    background: #3CB922;
+    border-radius: 10px;
+    color: white;
+    left: calc(50% - 173px/2 - 36.5px);
+
+
+         
+}
+.comprar6{
+   
+position: absolute;
+width: 173px;
+height: 48px;
+left: calc(50% - 173px/2 + 410.5px);
+top: 900px;
+font-size: 15pt;
+color: white;
+background: #3CB922;
+border-radius: 10px;
+            
+}
+
+.comprar7{
+
+position: absolute;
+width: 173px;
+height: 48px;
+left: calc(50% - 173px/2 - 477.5px);
+top: 1430px;
+background: #3CB922;
+border-radius: 10px;
+font-size: 15pt;
+color: white;
+
+                    
+}
+.comprar8{
+
+position: absolute;
+width: 173px;
+height: 48px;
+left: calc(50% - 173px/2 - 36.5px);
+top: 1430px;
+font-size: 15pt;
+color: white;
+background: #3CB922;
+border-radius: 10px;
+
+                    
+}
+.comprar9{
+
+    position: absolute;
+    width: 173px;
+    height: 48px;
+    left: calc(50% - 173px/2 + 410.5px);
+    top: 1430px;
+    background: #3CB922;
+    border-radius: 10px;
+    font-size: 15pt;
+    color: white;
+                    
+}
+
+
+/*--------------EXCLUIR---------------*/
 
 .excluir{
 
@@ -158,8 +388,80 @@ left: calc(50% - 173px/2 - 480.5px);
     font-size: 15px;
     color: #006414;
 }
+.excluir4{
+
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: 170px;
+    top: 980px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #006414;
 
 
+}
+.excluir5{
+
+position: absolute;
+width: 123px;
+height: 32px;
+left: calc(50% - 123px/2 - 2.5px);
+font-weight: 700;
+font-size: 15px;
+color: #006414;
+top: 980px;
+}
+.excluir6{
+
+position: absolute;
+width: 123px;
+height: 32px;
+left: calc(50% - 123px/2 + 444.5px);
+top: 980px;
+font-weight: 700;
+font-size: 15px;
+color: #006414;
+
+   
+}
+.excluir7{
+
+position: absolute;
+width: 123px;
+height: 32px;
+left: 170px;
+top: 1505px;
+font-weight: 700;
+font-size: 15px;
+color: #006414;
+}
+.excluir8{
+
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: calc(50% - 123px/2 - 2.5px);
+    top: 1505px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #006414;
+}
+
+
+.excluir9{
+
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: calc(50% - 123px/2 + 444.5px);
+    top: 1505px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #006414;
+}
+
+/*--------------carrinho---------------*/
 
 .carrinho {
 
@@ -172,6 +474,7 @@ left: calc(50% - 173px/2 - 480.5px);
     border-radius: 10px;
     color: white;
     left: calc(50% - 60px/2 - 357px);
+    position: absolute;
 
 }
 
@@ -200,3 +503,93 @@ left: calc(50% - 173px/2 - 480.5px);
     
 }
 
+.carrinho4 {
+
+    position: absolute;
+    width: 75px;
+    height: 48px;
+    left: calc(50% - 60px/2 - 354px);
+    top: 900px;
+    color: white;
+    background: #3CB922;
+    border-radius: 10px;
+
+    
+}
+.carrinho5 {
+
+position: absolute;
+width: 75px;
+height: 48px;
+left: calc(50% - 60px/2 + 87px);
+top: 900px;
+background: #3CB922;
+border-radius: 10px;
+color: white;
+    
+}
+.carrinho6 {
+
+
+position: absolute;
+width: 75px;
+height: 48px;
+left: calc(50% - 60px/2 + 534px);
+top: 900px;
+color: white;
+background: #3CB922;
+border-radius: 10px;
+
+      
+}
+.carrinho7 {
+
+position: absolute;
+width: 75px;
+height: 48px;
+left: calc(50% - 60px/2 - 354px);
+top: 1430px;
+color: white;
+background: #3CB922;
+border-radius: 10px;
+
+}
+.carrinho8 {
+
+position: absolute;
+width: 75px;
+height: 48px;
+left: calc(50% - 60px/2 + 87px);
+top: 1430px;
+color: white;
+background: #3CB922;
+border-radius: 10px;
+
+    
+ }
+ .carrinho8 {
+
+    position: absolute;
+    width: 75px;
+    height: 48px;
+    left: calc(50% - 60px/2 + 87px);
+    top: 1430px;
+    color: white;
+    background: #3CB922;
+    border-radius: 10px;
+    
+        
+}
+.carrinho9 {
+
+position: absolute;
+width: 75px;
+height: 48px;
+left: calc(50% - 60px/2 + 534px);
+top: 1430px;
+background: #3CB922;
+border-radius: 10px;
+color: white;
+
+        
+}
