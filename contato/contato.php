@@ -48,29 +48,63 @@
         <h1><i>Perguntas Frequentes</i></h1>
         <div id="caixa-perguntas">
 
-            <div id="q1">
-                <p>Qual é o prazo de entrega?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Qual é o prazo de entrega?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>O prazo de entrega varia de acordo com a localização do cliente e o método de envio escolhido. Em média, as entregas são realizadas entre 10 a 15 dias úteis. Para mais detalhes, consulte nossa página de envio.</p>
+                </article>
             </div>
-            <div id="q2">
-                <p>Quais são os métodos de pagamentos aceitos?</p> <button>↓</button>
+            <!-- <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Quais são os métodos de pagamentos aceitos?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>Aceitamos os seguintes métodos de pagamento: cartões de crédito (Visa, MasterCard, Hipercard, Hiper, Diners Club International, Elo, Amercian Express, Cabal) e PIX.</p>
+                </article>
             </div>
-            <div id="q3">
-                <p>Como faço para rastrear meu pedido?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Como faço para rastrear meu pedido?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>Assim que seu pedido for enviado, você receberá um e-mail com um código de rastreamento. Você pode usar este código em nosso site para acompanhar o status da entrega.</p>
+                </article>
             </div>
-            <div id="q4">
-                <p>Qual é a política de troca e devolução?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Qual é a política de troca e devolução?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>Aceitamos trocas e devoluções no prazo de 7 dias após o recebimento do pedido. O produto deve estar em perfeito estado, sem sinais de uso, e com todas as etiquetas originais. Para iniciar uma troca ou devolução, entre em contato com nosso atendimento ao cliente.</p>
+                </article>
             </div>
-            <div id="q5">
-                <p>Vocês vendem camisetas de todos os times?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Vocês vendem camisetas de todos os times?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>Nossa loja oferece uma ampla variedade de camisetas de futebol de times nacionais e internacionais. Se você não encontrar a camiseta desejada, entre em contato conosco e faremos o possível para atendê-lo.</p>
+                </article>
             </div>
-            <div id="q6">
-                <p>Como sei qual é o meu tamanho?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>Como sei qual é o meu tamanho?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                    <p>Disponibilizamos um guia de tamanhos na página de cada produto. Recomendamos que você consulte este guia e compare suas medidas antes de fazer a compra.</p>
+                </article>
             </div>
-            <div id="q7">
-                <p>As camisetas são originais?</p> <button>↓</button>
+            <div class="card-pergunta">
+                <header class="header-pergunta">
+                    <p>As camisetas são originais?</p> <button>▼</button>
+                </header>
+                <article class="article-card">
+                <p>Sim, todas as nossas camisetas são produtos oficiais e licenciados pelos clubes e fabricantes.</p>
+                </article>
             </div>
-        </div>
-
+        </div> -->
     </section>
 
 </body>
