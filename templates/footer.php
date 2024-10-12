@@ -68,7 +68,7 @@
             width: fit-content;
         }
 
-        a {
+        .link {
             display: flex;
             align-items: center;
         }
@@ -86,7 +86,7 @@
             </div>
 
             <div class="patrocinadores">
-                <img src="./templates/icones/parceiros.png" alt="">
+                <img src="../templates/icones/parceiros.png" alt="">
             </div>
 
             <div class="direitos">
@@ -98,15 +98,15 @@
         <section class="mid">
 
             <div class="email">
-                <a href="#">
-                    <img src="./templates/icones/email1.png" width="31px" height="31px" alt="email">
+                <a  class="link" href="#">
+                    <img src="../templates/icones/email1.png" width="31px" height="31px" alt="email">
                     <p>CONTATO@141SPORTS.COM.BR</p>
                 </a>
             </div>
 
             <div class="zap">
-                <a href="#">
-                    <img src="./templates/icones/whatsapp.png" width="31px" height="31px" alt="whatsapp">
+                <a  class="link" href="#">
+                    <img src="../templates/icones/whatsapp.png" width="31px" height="31px" alt="whatsapp">
                     <p>+556799999-9999</p>
                 </a>
             </div>
@@ -114,7 +114,7 @@
         </section>
 
         <section class="right-side">
-            <img src="./templates/icones/LogoHub.png" width="237" height="162" alt="senac">
+            <img src="../templates/icones/LogoHub.png" width="237" height="162" alt="senac">
         </section>
 
     </footer>

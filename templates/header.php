@@ -9,7 +9,7 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
 
         * {
             list-style: none;
@@ -73,7 +73,7 @@
 
         <div class="logo">
             <a href="#">
-                <img src="./templates/icones/headerlogo.png" alt="logo" width="90px" height="90px">
+                <img src="../templates/icones/headerlogo.png" alt="logo" width="90px" height="90px">
             </a>
         </div>
 
@@ -88,7 +88,7 @@
         </nav>
         <div class="perfil">
             <a href="">
-                <img src="./templates/icones/headerperfil.png" alt="perfil" width="50px" height="50px">
+                <img src="../templates/icones/headerperfil.png" alt="perfil" width="50px" height="50px">
             </a>
         </div>
     </header>

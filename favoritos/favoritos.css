@@ -1,30 +1,37 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    border: 0;
-}
-body {
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+* {
+    list-style: none;
+    text-decoration: none;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.favorito-title {
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 
 .main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-    
+    gap: 100px;
 }
-.favorito{
+
+.favorito {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.card{
-    margin:50px;
+
+.card-camisa {
     background-color: rgb(255, 255, 255);
-    width: 359px;
-    height: 418px;
+    width: 270px;
+    height: 370px;
     border-radius: 20px;
     text-align: center;
     font-size: 14px;
@@ -32,171 +39,70 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.card>img{
+.card-camisa .box-camisa {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
 
-    width: 182px;
-    height: 204px;
-    
 }
-.card>h1{
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 25px;
+
+.card-camisa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-camisa .carrinho {
+    height: 30px;
+    width: 30px;
+}
+
+.card-camisa .carrinho img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.card-camisa h1 {
+
+    font-size: 15px;
     line-height: 24px;
     color: #000000;
     padding-top: 0;
 
 }
 
-.preco{
-
-    position: absolute;
-    font-family: 'Red Rose';
-    font-style: normal;
-
-    font-weight: 800;
-    font-size: 25px;
-    text-transform: capitalize;
+.preco {
+    font-size: 23px;
+    font-family: 'Red Rose', sans-serif;
     color: #29AC0E;
-    padding: 10px;
-    left: 100px;
+    padding-bottom: 10px;
+    margin-left: 35px;
+    text-align: justify;
 }
 
-.preco2{
-
-    position: absolute;
-    font-family: 'Red Rose';
-    font-style: normal;
-
-    font-weight: 800;
-    font-size: 25px;
-    text-transform: capitalize;
-    color: #29AC0E;
-    padding: 10px;
-    left: 100px;
-}
-
-
-
-
-.comprar{
-   
-
-position: absolute;
-width: 173px;
-height: 48px;
-left: 100px;
-top: 400px;
-font-size: 15pt;
-background: #3CB922;
-border-radius: 10px;
-color: white;
-left: calc(50% - 173px/2 - 480.5px);
-
-}
-
-.comprar2{
-   
-
-    position: absolute;
+.comprar {
     width: 173px;
     height: 48px;
-    left: calc(50% - 173px/2 - 34.5px);
-    top: 400px;
+    font-size: 20px;
     background: #3CB922;
     border-radius: 10px;
     color: white;
-    font-size: 15pt;
-    
-    }
-
-    .comprar3{
-   
-        position: absolute;
-        width: 173px;
-        height: 48px;
-        left: calc(50% - 173px/2 + 412.5px);
-        top: 400px;
-        background: #3CB922;
-        border-radius: 10px;
-        color: white;
-        font-size: 15pt;
-        
-        }
-
-
-.excluir{
-
-    position: absolute;
-    width: 123px;
-    height: 32px;
-    left: 170px;
-    top: 470px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #006414;
+    border: none;
 }
-.excluir2{
-
-    position: absolute;
-    width: 123px;
-    height: 32px;
-    left: calc(50% - 123px/2 - 0.5px);
-    top: 470px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #006414;
-}
-.excluir3{
-
-    position: absolute;
-    width: 123px;
-    height: 32px;
-    left: calc(50% - 123px/2 + 446.5px);
-    top: 470px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #006414;
-}
-
-
 
 .carrinho {
-
-    position: absolute;
-    width: 75px;
-    height: 48px;
-    top: 400px;
-    font-size: 10pt;
     background: #3CB922;
+    height: 48px;
     border-radius: 10px;
-    color: white;
-    left: calc(50% - 60px/2 - 357px);
-
+    border: none;
+    padding: 4px;
 }
 
-.carrinho2 {
-
-    position: absolute;
-    width: 75px;
-    height: 48px;
-    left: calc(50% - 60px/2 + 89px);
-    top: 400px;
-    color: white;
-    background: #3CB922;
-    border-radius: 10px;
-
+p a {
+    color: #006414;
+    border-bottom: 1px solid;
 }
-.carrinho3 {
-
-    position: absolute;
-    width: 75px;
-    height: 48px;
-    left: calc(50% - 60px/2 + 536px);
-    top: 400px;
-    color: white;
-    background: #3CB922;
-    border-radius: 10px;
-    
-}
-
