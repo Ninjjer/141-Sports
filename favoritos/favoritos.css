@@ -1,14 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
-* {
-    list-style: none;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
 .favorito-title {
     display: flex;
     justify-content: center;
@@ -67,7 +56,6 @@
 
 
 .card-camisa h1 {
-
     font-size: 15px;
     line-height: 24px;
     color: #000000;
@@ -102,7 +90,7 @@
     padding: 4px;
 }
 
-p a {
+.excluirCamisa a {
     color: #006414;
     border-bottom: 1px solid;
 }

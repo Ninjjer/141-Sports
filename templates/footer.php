@@ -19,6 +19,14 @@
             color: #fff
         }
 
+        .mid-footer .email-footer .link-footer p {
+            color: #fff;
+        }
+
+        .mid-footer .zap-footer .link-footer {
+            color: #fff;
+        }
+
         .direitos-footer {
             color: #fff;
         }
@@ -35,10 +43,8 @@
         }
 
         .mid-footer {
-            color: #fff;
             display: flex;
             flex-direction: column;
-            
             width: fit-content;
             height: fit-content;
             margin-top: auto;

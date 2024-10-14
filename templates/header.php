@@ -18,16 +18,13 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Inter', sans-serif;
-            font-family: 'Red Rose', sans-serif;
         }
 
-        .a-header {
+        header #nav-header .nav-list li a {
             color: #fff;
-            text-decoration: none;
         }
 
-        .header {
-
+        header {
             display: flex;
             justify-content: space-around;
             justify-content: space-between;
@@ -37,58 +34,53 @@
             align-items: center;
         }
 
-        .nav-header {
+        #nav-header {
             height: 18px;
         }
 
-        .logo-header {
+        .logo {
             padding-left: 20px;
             padding-top: 20px;
         }
 
-        .perfil-header {
+        .perfil {
             filter: invert(100%);
             padding-right: 20px;
         }
 
-        .nav-list-header {
-            list-style: none;
+        .nav-list {
             display: flex;
             align-items: center;
         }
 
-        .nav-list-header li {
+        .nav-list li {
             letter-spacing: 3px;
             margin-left: 32px;
-        }
-
-        ul .nav-list-header li a {
-            font-family: 'Inter', sans-serif;
         }
     </style>
 
 </head>
 
 <body>
-    <header class="header">
+    <header>
 
-        <div class="logo-header">
+        <div class="logo">
             <a class="a-header" href="#">
                 <img src="../templates/icones/headerlogo.png" alt="logo" width="90px" height="90px">
             </a>
         </div>
 
-        <nav class="nav-header">
-            <ul class="nav-list-header-header">
-                <li><a class="a-header" href="#">Inicio</a></li>
-                <li><a class="a-header" href="#">Brasileirão</a></li>
-                <li><a class="a-header" href="#">Seleções</a></li>
-                <li><a class="a-header" href="#">Contato</a></li>
-                <li><a class="a-header" href="#">Sobre Nós</a></li>
+        <nav id="nav-header">
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Brasileirão</a></li>
+                <li><a href="#">Seleções</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre Nós</a></li>
             </ul>
         </nav>
-        <div class="perfil-header">
-            <a class="a-header" href="">
+        <div class="perfil">
+            <a href="#">
                 <img src="../templates/icones/headerperfil.png" alt="perfil" width="50px" height="50px">
             </a>
         </div>
