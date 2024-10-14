@@ -21,7 +21,7 @@
             <h1>Entre em contato conosco!</h1>
             <p>Para mais informações sobre nossa loja online de camisetas </br> futebol, por favor, entre em contato conosco através dos </br> meios abaixo.</p>
             <h4>Atendimento</h4>
-            
+
             <div class="align-wppTelefone">
                 <div class="img-wpp">
                     <img src="../templates/icones/whatsapp.png" alt="logoWhatsapp">
@@ -138,7 +138,7 @@
                     <p>As camisetas são originais?</p> <button>▼</button>
                 </div>
                 <article class="article-card">
-                <p>Sim, todas as nossas camisetas são produtos oficiais e licenciados pelos clubes e fabricantes.</p>
+                    <p>Sim, todas as nossas camisetas são produtos oficiais e licenciados pelos clubes e fabricantes.</p>
                 </article>
             </div>
 
@@ -150,6 +150,17 @@
     </section>
 
     <?php include('../templates/footer.php'); ?>
+
+
+    <script>
+        var itemArticlePergunta = document.querySelectorAll(".article-card");
+
+        itemArticlePergunta.forEach(card => {
+            card.querySelector("button").addEventListener("click", function() {
+                card.classList.toggle("ativo");
+            })
+        });
+    </script>
 
 </body>
 
