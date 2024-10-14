@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./templates/icones/headerlogo.png" type="image/x-icon">
     <title>141 SPORTS</title>
 
@@ -18,14 +18,15 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Inter', sans-serif;
+            font-family: 'Red Rose', sans-serif;
         }
 
-        a {
+        .a-header {
             color: #fff;
             text-decoration: none;
         }
 
-        header {
+        .header {
 
             display: flex;
             justify-content: space-around;
@@ -36,32 +37,32 @@
             align-items: center;
         }
 
-        nav {
+        .nav-header {
             height: 18px;
         }
 
-        .logo {
+        .logo-header {
             padding-left: 20px;
             padding-top: 20px;
         }
 
-        .perfil {
+        .perfil-header {
             filter: invert(100%);
             padding-right: 20px;
         }
 
-        .nav-list {
+        .nav-list-header {
             list-style: none;
             display: flex;
             align-items: center;
         }
 
-        .nav-list li {
+        .nav-list-header li {
             letter-spacing: 3px;
             margin-left: 32px;
         }
 
-        ul .nav-list li a {
+        ul .nav-list-header li a {
             font-family: 'Inter', sans-serif;
         }
     </style>
@@ -69,28 +70,29 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
 
-        <div class="logo">
-            <a href="#">
+        <div class="logo-header">
+            <a class="a-header" href="#">
                 <img src="../templates/icones/headerlogo.png" alt="logo" width="90px" height="90px">
             </a>
         </div>
 
-        <nav>
-            <ul class="nav-list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Brasileirão</a></li>
-                <li><a href="#">Seleções</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Sobre Nós</a></li>
+        <nav class="nav-header">
+            <ul class="nav-list-header-header">
+                <li><a class="a-header" href="#">Inicio</a></li>
+                <li><a class="a-header" href="#">Brasileirão</a></li>
+                <li><a class="a-header" href="#">Seleções</a></li>
+                <li><a class="a-header" href="#">Contato</a></li>
+                <li><a class="a-header" href="#">Sobre Nós</a></li>
             </ul>
         </nav>
-        <div class="perfil">
-            <a href="">
+        <div class="perfil-header">
+            <a class="a-header" href="">
                 <img src="../templates/icones/headerperfil.png" alt="perfil" width="50px" height="50px">
             </a>
         </div>
     </header>
 </body>
+
 </html>

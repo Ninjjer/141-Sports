@@ -7,33 +7,23 @@
     <title>Document</title>
 
     <style>
-        
-        * {
-            list-style: none;
-            text-decoration: none;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Inter', sans-serif;
-        }
 
-        footer {
+        #footer {
             background-color: #000000;
             display: flex;
             justify-content: space-between;
-
         }
 
-        .parceiros {
+        .parceiros-footer {
             font-size: 20px;
             color: #fff
         }
 
-        .direitos {
+        .direitos-footer {
             color: #fff;
         }
 
-        .left-side {
+        .left-side-footer {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -44,31 +34,31 @@
 
         }
 
-        .mid {
+        .mid-footer {
             color: #fff;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            
             width: fit-content;
             height: fit-content;
             margin-top: auto;
             margin-bottom: auto;
         }
 
-        .email {
+        .email-footer {
             display: flex;
         }
 
-        .zap {
+        .zap-footer {
             display: flex;
         }
 
-        .right-side {
+        .right-side-footer {
             height: fit-content;
             width: fit-content;
         }
 
-        .link {
+        .link-footer {
             display: flex;
             align-items: center;
         }
@@ -77,35 +67,35 @@
 </head>
 
 <body>
-    <footer>
+    <footer id="footer">
 
-        <section class="left-side">
+        <section class="left-side-footer">
 
-            <div class="parceiros">
+            <div class="parceiros-footer">
                 Parceiros
             </div>
 
-            <div class="patrocinadores">
+            <div class="patrocinadores-footer">
                 <img src="../templates/icones/parceiros.png" alt="">
             </div>
 
-            <div class="direitos">
+            <div class="direitos-footer">
                 <p>WWW.141SPORTS.COM.BR ©️ 2024TODOS DIREITOS RESERVADOS</p>
             </div>
 
         </section>
 
-        <section class="mid">
+        <section class="mid-footer">
 
-            <div class="email">
-                <a  class="link" href="#">
+            <div class="email-footer">
+                <a  class="link-footer" href="#">
                     <img src="../templates/icones/email1.png" width="31px" height="31px" alt="email">
                     <p>CONTATO@141SPORTS.COM.BR</p>
                 </a>
             </div>
 
-            <div class="zap">
-                <a  class="link" href="#">
+            <div class="zap-footer">
+                <a  class="link-footer" href="#">
                     <img src="../templates/icones/whatsapp.png" width="31px" height="31px" alt="whatsapp">
                     <p>+556799999-9999</p>
                 </a>
@@ -113,7 +103,7 @@
 
         </section>
 
-        <section class="right-side">
+        <section class="right-side-footer">
             <img src="../templates/icones/LogoHub.png" width="237" height="162" alt="senac">
         </section>
 
