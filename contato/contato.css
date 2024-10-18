@@ -110,11 +110,20 @@
 }
 
 #perguntas #caixa-perguntas .card-pergunta .article-card {
-    display: none;
+    opacity: 0;
+    border: 1px solid black;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(100%);
+    transition: all 1s;
 }
 
 #perguntas #caixa-perguntas .card-pergunta .article-card.ativo {
-    display: block;
+    opacity: 1;
+    transform: translateY(50%);
+    background-color: #FFFFFF;
+    
 }
 
 #perguntas #caixa-perguntas .card-pergunta .div-pergunta button {
@@ -131,3 +140,19 @@
     height: 1px;
     width: 100%;
 }
+
+.card-duvida-1 {
+    opacity: 0;
+    border: 1px solid black;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(100%);
+    transition: all 1s;
+}
+
+.card-duvida-1.ativo {
+    opacity: 1;
+    transform: translateY(50%);
+}
+

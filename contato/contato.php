@@ -151,15 +151,17 @@
 
     <?php include('../templates/footer.php'); ?>
 
-
     <script>
-        var itemArticlePergunta = document.querySelectorAll(".article-card");
+        var itemArticlePergunta = document.querySelectorAll(".div-pergunta button"); 
+        var itemArticleResposta = document.querySelectorAll(".article-card");
 
-        itemArticlePergunta.forEach(card => {
-            card.querySelector("button").addEventListener("click", function() {
-                card.classList.toggle("ativo");
-            })
+        itemArticlePergunta.forEach(function(button, index) {
+            button.addEventListener("click", function() {
+                itemArticleResposta[index].classList.toggle("ativo");
+            });
         });
+
+            
     </script>
 
 </body>
